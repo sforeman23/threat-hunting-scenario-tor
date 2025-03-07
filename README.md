@@ -45,7 +45,7 @@ DeviceFileEvents
 
 ### 2. Searched the `DeviceProcessEvents` Table
 
-Searched for any `ProcessCommandLine` that contained the string "tor-browser-windows-x86_64-portable-14.0.7.exe". Based on the logs returned, at 2025-03-05T01:44:50.1266052Z, an employee on the "spencer-mde-vm" device ran the file `tor-browser-windows-x86_64-portable-14.0.7.exe` from their Downloads folder, using a command that triggered a silent installation.
+Searched for any `ProcessCommandLine` that contained the string "tor-browser-windows-x86_64-portable-14.0.7.exe". Based on the logs returned, at `2025-03-05T01:44:50.1266052Z`, an employee on the "spencer-mde-vm" device ran the file `tor-browser-windows-x86_64-portable-14.0.7.exe` from their Downloads folder, using a command that triggered a silent installation.
 
 **Query used to locate event:**
 
@@ -63,7 +63,7 @@ DeviceProcessEvents
 
 ### 3. Searched the `DeviceProcessEvents` Table for TOR Browser Execution
 
-Searched for any indication that user "labuser" actually opened the TOR browser. There was evidence that they did open it at 2025-03-05T01:46:20.2184481Z. There were several other instances of `firefox.exe` (TOR) as well as `tor.exe` spawned afterwards.
+Searched for any indication that user "labuser" actually opened the TOR browser. There was evidence that they did open it at `2025-03-05T01:46:20.2184481Z`. There were several other instances of `firefox.exe` (TOR) as well as `tor.exe` spawned afterwards.
 
 **Query used to locate events:**
 
